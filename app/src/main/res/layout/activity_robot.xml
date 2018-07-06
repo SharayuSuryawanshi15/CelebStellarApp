@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_b"
+    tools:context="cc.app.celebstellar.Robot">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_robot" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="false"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/event_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary"
+                android:text="Robo Ignitor"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:id="@+id/fee_image"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:layout_marginBottom="200dp"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="40dp"
+                app:srcCompat="@drawable/tag2" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="45dp"
+                android:layout_marginTop="60dp"
+                android:text="FEES"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fee_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/textView5"
+                android:layout_alignRight="@+id/textView5"
+                android:layout_marginTop="90dp"
+                android:text="350"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/description_text"
+                android:layout_width="180dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView5"
+                android:layout_marginLeft="18dp"
+                android:layout_marginStart="18dp"
+                android:text="Take Robo Race challenge and show your move"
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="190dp"
+                android:layout_height="30dp"
+                android:layout_alignLeft="@+id/description_text"
+                android:layout_alignStart="@+id/description_text"
+                android:layout_below="@+id/description_text"
+                android:layout_marginTop="10dp"
+                android:text="Maximum Participants  : "
+                android:textColor="#ffffff"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvParticipants"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_alignBaseline="@+id/textView18"
+                android:layout_alignBottom="@+id/textView18"
+                android:layout_alignLeft="@+id/fee_image"
+                android:layout_alignStart="@+id/fee_image"
+                android:text="4"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView18"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="DATE:"
+                android:textColor="#ffffff"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView18"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="2dp"
+                android:text="12,13 Feb"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView18"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="5dp"
+                android:text="TIME:"
+                android:textColor="#ffffff"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView18"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="2dp"
+                android:text="10:00 am"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_time"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="CONTACT:"
+                android:textColor="#ffffff"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_time"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="2dp"
+                android:autoLink="phone"
+                android:textColorLink="@color/colorPrimaryDark"
+                android:text="7385303368"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView24"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="EVENT HEAD:"
+                android:textColor="#ffffff"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:text="Paytm NUMBER:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView26"
+                android:layout_marginTop="5dp"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="10dp"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:id="@+id/textView34" />
+
+            <TextView
+                android:id="@+id/tv_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9922414563  "
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="20sp"
+                android:autoLink="phone"
+                android:textColorLink="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:layout_below="@+id/textView26"
+                android:layout_toRightOf="@+id/prize_image"
+                android:layout_toEndOf="@+id/prize_image" />
+
+            <TextView
+                android:id="@+id/tv_eventHead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView24"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="2dp"
+                android:text="Swati Kumari"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/prize_image"
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView26"
+                android:layout_marginTop="40dp"
+                app:srcCompat="@drawable/prize" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView8"
+                android:layout_alignStart="@+id/textView8"
+                android:layout_alignTop="@+id/prize_image"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="44dp"
+                android:text="PRIZES"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1st PRIZE :"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_above="@+id/prize2"
+                android:layout_alignRight="@+id/tv_eventHead"
+                android:layout_alignEnd="@+id/tv_eventHead" />
+
+            <TextView
+                android:id="@+id/prize1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView11"
+                android:layout_alignBottom="@+id/textView11"
+                android:layout_alignEnd="@+id/fee_text"
+                android:layout_alignRight="@+id/fee_text"
+                android:text="7500"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2nd PRIZE : "
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_above="@+id/textView2"
+                android:layout_alignLeft="@+id/textView"
+                android:layout_alignStart="@+id/textView" />
+
+            <TextView
+                android:id="@+id/prize2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView13"
+                android:layout_alignBottom="@+id/textView13"
+                android:layout_alignLeft="@+id/prize1"
+                android:layout_alignStart="@+id/prize1"
+                android:text="5000"
+                android:textColor="@android:color/holo_blue_bright"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/rulerobot"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="500dp"
+                android:background="@color/colorPrimary"
+                android:text="CHECK RULES "
+                android:textColor="#ffffffff"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/Registerrobot"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_below="@id/rulerobot"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorPrimary"
+                android:onClick="browserrobot"
+                android:text="REGISTER NOW"
+                android:textColor="#ffffffff"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/prize_image"
+                android:layout_alignEnd="@+id/textView11"
+                android:layout_alignRight="@+id/textView11"
+                android:text="3rd PRIZE"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/textView"
+                android:layout_alignLeft="@+id/fee_text"
+                android:layout_alignStart="@+id/fee_text"
+                android:text="3000" android:textColor="@android:color/holo_blue_bright"
+
+                android:textSize="20sp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fee_text"
+                android:text="per group"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_alignRight="@+id/tv_time"
+                android:layout_alignEnd="@+id/tv_time"
+                android:layout_toEndOf="@+id/textView21"
+                android:layout_toRightOf="@+id/textView21" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+</android.support.design.widget.CoordinatorLayout>

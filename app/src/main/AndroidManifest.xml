@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cc.app.celebstellar">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Blind"
+            android:label="@string/title_activity_blind"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cc.app.celebstellar.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Android_D"
+            android:label="@string/title_activity_android__d"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cc.app.celebstellar.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Best"
+            android:label="@string/title_activity_best"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cc.app.celebstellar.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Bolly"
+            android:label="Bolide"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cc.app.celebstellar.MainActivity" />
+        </activity>
+        <activity
+            android:name=".C_Cpp"
+            android:label="@string/title_activity_c__cpp"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cc.app.celebstellar.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Digital"
+            android:label="@string/title_activity_digital"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cc.app.celebstellar.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Extempo"
+            android:label="@string/title_activity_extempo"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cc.app.celebstellar.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Logog"
+            android:label="@string/title_activity_logog"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+         </activity>
+        <activity
+            android:name=".Mad"
+            android:label="@string/title_activity_mad"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cc.app.celebstellar.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Paper"
+            android:label="@string/title_activity_paper"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cc.app.celebstellar.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Poster"
+            android:label="@string/title_activity_poster"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cc.app.celebstellar.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Rangoli"
+            android:label="@string/title_activity_rangoli"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cc.app.celebstellar.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Robot"
+            android:label="@string/title_activity_robot"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cc.app.celebstellar.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Shirt"
+            android:label="@string/title_activity_shirt"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cc.app.celebstellar.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Tech_Q"
+            android:label="@string/title_activity_tech__q"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cc.app.celebstellar.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Tres"
+            android:label="@string/title_activity_tres"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cc.app.celebstellar.MainActivity" />
+        </activity>
+        <activity android:name=".Bestrules" />
+        <activity android:name=".Bollyrules" />
+        <activity android:name=".Digitalrules" />
+        <activity android:name=".Androidrules" />
+        <activity android:name=".PaperRules" />
+        <activity android:name=".Madrules" />
+        <activity android:name=".Blindrule" />
+        <activity android:name=".Extemporules" />
+        <activity android:name=".Logogrules" />
+        <activity android:name=".RangoliRules" />
+        <activity android:name=".ShirtRules" />
+        <activity android:name=".CcppRules" />
+        <activity android:name=".RobotRules" />
+        <activity android:name=".Techqrules" />
+        <activity android:name=".TresRules" />
+        <activity android:name=".Posterrules"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_b"
+    tools:context="cc.app.celebstellar.Posterrules">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+
+                android:text="Follow This Instructions"
+                android:textColor="?android:attr/textColorLink"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/tvposter"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="80dp"
+                android:text="1.Poster size should not exceed 60×70 cm (23.5×27.5 inch). \n\n 2.Time constraints for each team is of 15 mins. In which 10 mins are allocated for presentation and explanation and last 5 min for question answer session. The members will be notified by the end of time. \n\n 3.UG Level Fees: \n100/- per head \n75/- per head for group \n\n 2.PG Level Fees: \n 150/- per head \n 100/- per head for group \n\n \n\nTopics are: \n COMPTER: \n 1.IoT \n 2.BigData Analytics \n 3.Cloud Computing \n\n ELECTRONIS/ELECTRICAL: \n 1.VLSI and Embedded System \n 2.Image Processing and applications \n 3.Nano Technology\n 4.Wireless Communication \n\n MECHANICAL: \n 1.Manufacturing \n 2.Design \n 3. Thermal Engineering \n\n CIVIL: \n 1. Water and waste water treatment \n 2. Smart Cities \n 3.New trends in construction \n\n First Year: \n 1.Energy conservation \n 2.Green building \n 3. Remote Sensing,GIS and Applications \n\n PG Level Prize: \n 1st Prize:3000 \n 2nd Prize:2000"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/warning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColorLink="@color/colorPrimaryDark"
+                android:text=" WARNING "
+                android:layout_below="@+id/tvposter"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:layout_alignParentRight="false"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+
+
+            <TextView
+                android:id="@+id/firstnote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/warning"
+                android:textColorLink="@color/colorPrimaryDark"
+                android:text=" 1.Mention Event Name in Description while making payment through Paytm "
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"/>
+
+
+
+
+            <TextView
+                android:id="@+id/secondnote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColorLink="@color/colorPrimaryDark"
+                android:text=" 2.Please bring your college Id card while coming to the event."
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/firstnote"
+                android:layout_marginTop="15dp"/>
+
+
+
+            <TextView
+                android:id="@+id/thirdnote"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColorLink="@color/colorPrimaryDark"
+                android:text=" 3.While registering through google form,please activate the option 'Send me the copy of my response'."
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/secondnote"
+                android:layout_marginTop="18dp"/>
+
+            <TextView
+                android:id="@+id/fournote"
+                android:layout_below="@+id/thirdnote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColorLink="@color/colorPrimaryDark"
+                android:text="4.You will get an email of your information and you have to show this mail or screenshot as a pass on the day of event."
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

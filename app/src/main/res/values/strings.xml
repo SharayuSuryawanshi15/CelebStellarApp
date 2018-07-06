@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CelebStellar</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_blind">Serenity</string>
+    <string name="title_activity_android__d">AndroSphere</string>
+    <string name="title_activity_best">Nebula</string>
+    <string name="title_activity_bolly">Bolly</string>
+    <string name="title_activity_c__cpp">Clone War</string>
+    <string name="title_activity_digital">Star Burst</string>
+    <string name="title_activity_extempo">Deep Space</string>
+    <string name="title_activity_logog">Devinar</string>
+    <string name="title_activity_mad">Elysium</string>
+    <string name="title_activity_paper">Esomar</string>
+    <string name="title_activity_poster">Big Bang</string>
+    <string name="title_activity_rangoli">Constellation</string>
+    <string name="title_activity_robot">Robo Ignitor</string>
+    <string name="title_activity_shirt">Crazy Comet</string>
+    <string name="title_activity_tech__q">Galaxy Quest</string>
+    <string name="title_activity_tres">Galastic Hunt</string>
+</resources>

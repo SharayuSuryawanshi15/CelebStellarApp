@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_b"
+    tools:context="cc.app.celebstellar.CcppRules">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+
+                android:text="Follow This Instructions"
+                android:textColor="?android:attr/textColorLink"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/tvccpp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="80dp"
+                android:text=" 1.Maximum participants:2 \n Minimum participant:1 \n\n2.Fees 50/- per head for group   \n\n 3.No cheating will be entertained \n\n 4. No use of mobile phones is allowed "
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/warning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColorLink="@color/colorPrimaryDark"
+                android:text=" WARNING "
+                android:layout_below="@+id/tvccpp"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:layout_alignParentRight="false"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+
+
+            <TextView
+                android:id="@+id/firstnote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/warning"
+                android:textColorLink="@color/colorPrimaryDark"
+                android:text=" 1.Mention Event Name in Description while making payment through Paytm "
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"/>
+
+
+
+
+            <TextView
+                android:id="@+id/secondnote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColorLink="@color/colorPrimaryDark"
+                android:text=" 2.Please bring your college Id card while coming to the event."
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/firstnote"
+                android:layout_marginTop="15dp"/>
+
+
+
+            <TextView
+                android:id="@+id/thirdnote"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColorLink="@color/colorPrimaryDark"
+                android:text=" 3.While registering through google form,please activate the option 'Send me the copy of my response'."
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/secondnote"
+                android:layout_marginTop="18dp"/>
+
+            <TextView
+                android:id="@+id/fournote"
+                android:layout_below="@+id/thirdnote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColorLink="@color/colorPrimaryDark"
+                android:text="4.You will get an email of your information and you have to show this mail or screenshot as a pass on the day of event."
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

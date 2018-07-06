@@ -1,0 +1,230 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/devwall"
+
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cc.app.celebstellar.MainActivity">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="284dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="DEVELOPERS"
+            android:layout_marginTop="0dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+
+        android:id="@+id/imageView"
+        android:layout_width="350dp"
+        android:layout_height="180dp"
+        android:src="@drawable/sharayufinal"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed"
+
+        android:gravity="center"
+        android:text="Sharayu Suryawanshi"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:id="@+id/textView7" />
+
+        <TextView
+
+            android:id="@+id/bharati"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView7"
+            android:gravity="center"
+            android:text="Bharati Vidyapeeth's College Of Engineering For Women\n\n"
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/linkedinshara"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:background="@drawable/in"
+        android:onClick="browserlinkedinsharaIntent"
+        android:layout_alignBaseline="@+id/instashara"
+        android:layout_alignBottom="@+id/instashara"
+        android:layout_toRightOf="@+id/instashara"
+        android:layout_toEndOf="@+id/instashara"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+
+    <Button
+        android:id="@+id/instashara"
+        android:background="@drawable/insta"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="42dp"
+        android:gravity="center"
+        android:onClick="browserinstasharaIntent"
+        android:layout_below="@+id/textView7"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/bharati" />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:background="@drawable/fb"
+        android:id="@+id/fbshara"
+        android:onClick="browserfbsharaIntent"
+        android:layout_alignBaseline="@+id/instashara"
+        android:layout_alignBottom="@+id/instashara"
+        android:layout_toLeftOf="@+id/instashara"
+        android:layout_toStartOf="@+id/instashara"
+        android:layout_marginRight="17dp"
+        android:layout_marginEnd="17dp" />
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+
+
+        <ImageView
+
+            android:id="@+id/imageView1"
+            android:layout_width="500dp"
+            android:layout_height="180dp"
+            android:src="@drawable/swarafinal"
+            android:layout_marginTop="7dp"
+            android:layout_below="@+id/linkedinshara"
+            android:layout_centerHorizontal="true" />
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="Swaranjali Raskar"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:textStyle="bold|italic"
+            android:id="@+id/textView8"
+            android:layout_below="@+id/imageView1" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Bharati Vidyapeeth's College Of Engineering For Womens\n\n"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:id="@+id/bharati1"
+            android:layout_below="@+id/textView8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+
+
+
+
+
+
+        <Button
+            android:id="@+id/linkedinswara"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:background="@drawable/in"
+            android:layout_alignBaseline="@+id/instaswara"
+            android:layout_alignBottom="@+id/instaswara"
+            android:onClick=" browserlinkedinswaraIntent"
+            android:layout_alignRight="@+id/linkedinshara"
+            android:layout_alignEnd="@+id/linkedinshara"
+            android:layout_alignLeft="@+id/linkedinshara"
+            android:layout_alignStart="@+id/linkedinshara" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+
+        <Button
+            android:id="@+id/instaswara"
+            android:background="@drawable/insta"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="355dp"
+            android:gravity="center"
+            android:layout_marginRight="40dp"
+            android:layout_marginEnd="40dp"
+            android:onClick="browserinstaswaraIntent"
+            android:layout_below="@+id/textView7"
+            android:layout_centerHorizontal="true"
+
+         />
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:background="@drawable/fb"
+            android:id="@+id/fbswara"
+            android:onClick="browserfbswaraIntent"
+            android:layout_marginTop="355dp"
+            android:layout_alignBaseline="@+id/linkedinswara"
+            android:layout_alignBottom="@+id/linkedinswara"
+            android:layout_alignRight="@+id/fbshara"
+            android:layout_alignEnd="@+id/fbshara" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+
+
+
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

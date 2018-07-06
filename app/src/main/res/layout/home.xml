@@ -1,0 +1,160 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_b"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cc.app.celebstellar.MainActivity">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/interlastid"
+            android:layout_width="match_parent"
+            android:layout_height="370dp"
+            app:srcCompat="@drawable/interstellar"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_below="@+id/interlastid"
+            android:layout_marginTop="0dp"
+            android:text="         The woman who has stepped out is truly a woman of substance, a woman who has proved her potential over and over again"
+            android:textColor="@android:color/background_light"
+            android:layout_weight="0.50" />
+
+        <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:layout_below="@+id/tv1"
+            android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="0dp"
+            android:textSize="20dp"
+        android:text="          The prime objective of the academic institution is to provide skilled technical manpower to the industry. Also academic institutions directly or indirectly , contribute towards the growth of the nation. "
+        android:textColor="@android:color/background_light" />
+
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/princi"
+            android:layout_marginBottom="48dp"
+            android:layout_weight="0.11"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Honarable Harish Vankudre\n\t\t\t\t\t\t IIT Bombay"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="48dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:layout_below="@+id/tv3"
+            android:text="Participate to explore yourself and win prizes. Stay tuned"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20dp"
+            android:layout_weight="0.11" />
+
+
+        <ImageView
+            android:id="@+id/jishina"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/jishina"
+            android:layout_marginTop="650dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+        <ImageView
+            android:id="@+id/img1last"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/img1last"
+            android:layout_marginTop="930dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+        <ImageView
+            android:id="@+id/jishinb"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/jishinb"
+            android:layout_marginTop="1200dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:id="@+id/jishinx"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/jishinx"
+            android:layout_marginTop="1400dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+        <ImageView
+            android:id="@+id/jishiny"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/jishiny"
+            android:layout_marginTop="1600dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:id="@+id/vishwa"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/vishwa"
+            android:layout_marginTop="1800dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+
+        <ImageView
+            android:id="@+id/princi"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/princi"
+            android:layout_marginTop="2050dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>
